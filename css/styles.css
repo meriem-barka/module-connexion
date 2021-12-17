@@ -1,0 +1,297 @@
+body{
+  min-height: 100vh;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  background-size: cover;
+}
+
+.image{
+  left: 0;
+  top: 0;
+  z-index: -1000;
+  background-image: url("../img/mario1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+  
+nav{
+  margin: 0;
+  padding: 1%;
+  background-color: #75c5ff;
+}
+
+ul {
+  text-align:center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  margin-right: 2%;
+  display: inline;
+}
+
+a{
+  font-size: 0.6em;
+  font-weight: bold;
+  color: white;
+  margin-left: 4%;
+  text-decoration: none;
+}
+
+h2{
+  color: rgb(77, 74, 74);
+  font-size: 1.8em;
+}
+
+h2:hover{
+  color: red;
+}
+
+h2, h3{
+  text-align: center;
+}
+
+h3{
+  color: #585656;
+  font-size: 1.9em;
+}
+
+h3:hover{
+  color: red;
+}
+
+form{
+  margin: 20%;
+  text-align: center;
+}
+
+label{
+  font-weight: bold;
+  font-size: 0.8em;
+  text-align: center;
+  color: #47a6eb;
+  display: block;
+}
+
+.button{
+  font-family: sans-serif;
+  background-color: #958f8f;
+  font-size: 0.9em;
+  border-radius: 5%;
+  border: 2px solid #958f8f;
+  margin: 40%;
+}
+
+footer {
+  padding: 3%;
+  background: #4c4b4b;;
+ }
+
+ footer p{
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 0.6em;
+  color: white;
+}
+
+/*=============== Page d'Accueil=================*/
+
+.text p{
+  margin-top: 12%;
+  border: solid;
+  color:white;
+  padding: 43px;
+  background-color:rgba(30, 160, 247, 0.63);
+}
+
+/*=============== Page d'Inscription=================*/
+
+
+
+/*=============== Page Connexion=================*/
+
+fieldset{
+  margin: 24%;
+  border-radius: 5%;
+  border: 2px solid rgb(255, 255, 255);
+  width: 60%;
+  background-color:rgba(254, 180, 205, 0.90);
+}
+
+legend{
+  color: rgba(248, 8, 8, 0.849);
+  font-size: 1.2em;
+}
+
+legend:hover{
+  color: brown;
+}
+/*=============== Page Profil=================*/
+
+article p {
+  font-weight: revert;
+  font-size: 0.5em;
+  color: black;
+  font-family: emoji;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.img-profil{
+  width: 50%;
+}
+/*=============== Page Admin=================*/
+
+th{
+  border: 1px solid red;
+}
+
+td{
+  border: 1px solid red;
+}
+
+.deco{
+  margin-left: 30%;
+  width: 143px;
+}
+
+
+input[type="submit"]{
+  margin-top: 5%;
+}
+
+/*========== screen ===========*/
+
+@media screen and (min-width: 768px){
+  
+  nav{
+    box-shadow: 10px 5px 5px rgba(71, 70, 71, 0.411);
+    margin: 0;
+    padding: 1%;
+  }
+
+  a{
+    font-size: 1.5em;
+  }
+
+  label{
+    margin-top: 5%;
+    font-size: 1.2em;
+    color: white;
+  }
+
+  .button .button2{
+    font-size: 0.9em;
+    color: black;
+    border-radius: 5%;
+    font-weight: bold;
+  }
+
+  .button2{
+    border-radius: 2%;
+    background-color: #c1bcbc;
+    margin-left: 45%;
+    border: 2px solid #958f8f;
+  }
+
+/*=============== Page d'Accueil=================*/
+
+  h2{
+    font-size: 2.9em;
+    margin: 40px;
+    padding-top: 1%;
+  }
+
+  h3{
+    font-size: 2.7em;
+    color: white;
+  }
+
+  section{
+    margin-bottom: 15%;
+  }
+
+
+  .text p{
+    font-size: 1em;
+    margin-left: 26%;
+    text-decoration-color: white; 
+    padding: 130px;
+    border-radius: 50%;
+    width: 20%;
+  }
+  
+  /*=============== Page d'Inscription=================*/
+
+  form.insciption{
+    margin-left: 24%;
+    width: 52%;
+    border-radius: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(117, 197, 255, 0.79); 
+  }
+
+  /*=============== Page Connexion=================*/
+
+  .conn{
+    margin-left: 36%;
+  }
+
+  fieldset{
+    margin-left: -19%;
+    padding: 10%;
+    border-radius: 5%;
+    border: 2px solid rgb(255, 255, 255);
+    width: 60%;
+    background-color: rgb(117, 197, 255);
+  }
+
+  legend{
+    color: white;
+    font-size: 3em;
+  }
+
+  /*=============== Page Profil=================*/
+
+ .flex{
+    display: flex;
+  }
+
+  article p {
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+  }
+
+ .profil{
+    margin-right: 14%;
+    width: 40%;
+  }
+
+  .pro {
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    padding: 1%;
+    width: 50%;
+    display: flex;
+  }
+
+  form{
+    margin: auto;
+    border-radius: 5%;
+    width: 100%;
+    padding-bottom: 5%;
+  }
+
+/*=============== Page Admin=================*/
+
+}
